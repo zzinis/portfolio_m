@@ -21,14 +21,325 @@
                 border: 1px solid #fff;
                 background: #fff;
                 padding: 50px;
-                .wrap{
-                    display: flex;
-                }
+                
             }
         }
         .sld1{
             .inner{
                 background: #f7f3f0;
+                padding: 0;
+                .container{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    perspective: 600px;
+                    .wrap{
+                        width: 100%;
+                        display: flex;
+                        .left{
+                            position: relative;
+                            display: flex;
+                            justify-content: space-between;
+                            width: 50%;
+                            height: 52vw;
+                            flex-wrap: wrap;
+                            .frame{
+                                .linebottom{
+                                    width: calc(100% + (1vw));
+                                    height: 0;
+                                    background: #000;
+                                    position: absolute;
+                                    left: 0;
+                                    bottom: 0;
+                                    &::before{
+                                        content: '';
+                                        width: 100%;
+                                        height: 1px;
+                                        background: #000;
+                                        position: absolute;
+                                        bottom: -1vw;
+                                        left: -1vw;
+                                    }
+                                    &::after{
+                                        content: '';
+                                        width: 100%;
+                                        height: 1px;
+                                        background: #000;
+                                        position: absolute;
+                                        bottom: 1vw;
+                                        left: -1vw;
+                                    }
+                                }
+                                .midline{
+                                    position: absolute;
+                                    display: block;
+                                    left: 50%;
+                                    // bottom: 0;
+                                    // height: 1vw;
+                                    width: 0;
+                                    background: #000;
+                                    bottom: -12px;
+                                    height: 2.1vw;
+                                    &::before{
+                                        content: '';
+                                        width: 1px;
+                                        height: 100%;
+                                        background: #000;
+                                        position: absolute;
+                                        top: 3px;
+                                        left: -1vw;
+                                    }
+                                    &::after{
+                                        content: '';
+                                        width: 1px;
+                                        height: 100%;
+                                        background: #000;
+                                        position: absolute;
+                                        top: 3px;
+                                        left: 1vw;
+                                    }
+
+                                }
+                                .icon{
+                                    position: absolute;
+                                    width: 2vw;
+                                    height: 2vw;
+                                    bottom: -1.2vw;
+                                    left: 49%;
+                                    span{
+                                        position: absolute;
+                                        width: inherit;
+                                        height: inherit;
+                                    }
+                                }
+                            }
+                            .leftbox{
+                                width: 100%;
+                                height: 100%;
+                                svg{
+                                    position: absolute;
+                                    bottom: 4vw;
+                                    left: 2vw;
+                                    text{
+                                        font: bold 5vw/1 'Overpass';
+                                        fill: #fff;
+                                        stroke: #111;
+                                        stroke-width: 2;
+                                        stroke-linejoin: miter;
+                                        stroke-linecap: square;
+                                        stroke-dasharray: 240px;
+                                        stroke-dashoffset: 240px;
+                                        transform: scale(0.96);
+                                        transform-origin: center center;
+                                        animation: ani 3s alternate-reverse linear infinite;
+
+                                    }
+                                }
+                                
+                                @keyframes ani{
+                                    0%{ stroke-dashoffset:240px;
+                                        transition: stroke-dashoffset 1s 1s, fill 1s 0s; 
+                                    }
+            
+                                    100%{ 
+                                        fill: #fff;
+                                        stroke-width: 1;
+                                        stroke-dashoffset:0px;
+                                        stroke-dashoffset: 0;
+                                        transition: stroke-dashoffset 1s 0s, fill 1s 1s;
+                                    }
+                                }
+                                // svg{
+                                //     position: absolute;
+                                //     bottom: 4vw;
+                                //     // font: 50px/1 'Heebo';
+                                //     font: bold 6vw/1 'Heebo';
+                                //     color: #fff;
+                                //     // text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+                                //     -webkit-text-stroke: 0.5px #111;
+                                //     padding-left: 2vw;
+                                // }
+                            }
+                        }
+                        .right{
+                            position: relative;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            width: 50%;
+                            height: 52vw;
+                            .card{
+                                display: flex;
+                                width: 50%;
+                                height: 40%;
+                                transform-style: preserve-3d;
+                                transition: 0.5s;
+                                .frame{
+                                    .linebottom{
+                                        width: calc(100% + (1vw));
+                                        height: 0;
+                                        background: #000;
+                                        position: absolute;
+                                        left: 0;
+                                        bottom: 0;
+                                        &::before{
+                                            content: '';
+                                            width: 100%;
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            bottom: -1vw;
+                                            left: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 100%;
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            bottom: 1vw;
+                                            left: -1vw;
+                                        }
+                                    }
+                                    .lineleft{
+                                        position: absolute;
+                                        display: block;
+                                        left: 0;
+                                        top: 0;
+                                        width: 0;
+                                        height: 100%;
+                                        background: #000;
+
+                                        &::before{
+                                            content: '';
+                                            width: 1px;
+                                            height: calc(100% + 11vw);
+                                            background: #000;
+                                            position: absolute;
+                                            top: -1vw;
+                                            left: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 1px;
+                                            height: calc(100% + 11vw );
+                                            background: #000;
+                                            position: absolute;
+                                            top: -1vw;
+                                            left: 1vw;
+                                        }
+    
+                                    }
+                                    .icon{
+                                        position: absolute;
+                                        width: 2vw;
+                                        height: 2vw;
+                                        bottom: -1.2vw;
+                                        left: -0.5vw;
+                                        span{
+                                            position: absolute;
+                                            width: inherit;
+                                            height: inherit;
+                                        }
+                                    }
+                                }
+                            }
+                            .box{
+                                width: 50%;
+                                height: 12%;
+                                .frame{
+                                    .linecenter{
+                                        width: calc(100% + 1vw);
+                                        height: 1px;
+                                        background: #000;
+                                        position: absolute;
+                                        display: block;
+                                        left: -1vw;
+                                        top: 0;
+                                    }
+                                    .lineleft{
+                                        width: 0;
+                                        height: 100%;
+                                        background: #000;
+                                        position: absolute;
+                                        display: block;
+                                        left: 0;
+                                        top: 0;
+                                        &::before{
+                                            content: '';
+                                            width: 1px;
+                                            height: calc( 100% +  (2vw));
+                                            background: #000;
+                                            position: absolute;
+                                            left: -1vw;
+                                            top: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 1px;
+                                            height: calc(100% + 2vw);
+                                            background: #000;
+                                            position: absolute;
+                                            left: 1vw;
+                                            top: -1vw;
+                                        }
+                                    }
+                                    .linebottom{
+                                        width: calc(100% + 1vw);
+                                        height: 0;
+                                        background: #000;
+                                        position: absolute;
+                                        display: block;
+                                        left: 0;
+                                        bottom: 0;
+                                        &::before{
+                                            content: '';
+                                            width: 100%;
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            left: -1vw;
+                                            bottom: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 100%;
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            bottom: 1vw;
+                                            left: -1vw;
+                                        }
+                                    }
+                                    .icon{
+                                        position: absolute;
+                                        width: 2vw;
+                                        height: 2vw;
+                                        bottom: -1.2vw;
+                                        left: -0.5vw;
+                                    }
+                                    
+                                }
+                            }
+                            .box1{
+                                width: 50%;
+                                height: 12%;
+                                .frame{
+                                    
+                                    .icon{
+                                        position: absolute;
+                                        width: 2vw;
+                                        height: 2vw;
+                                        bottom: -1.2vw;
+                                        left: 24.5vw;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
