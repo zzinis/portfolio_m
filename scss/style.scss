@@ -18,8 +18,6 @@
             .inner {
                 width: 100%;
                 height: 100%;
-                border: 1px solid #fff;
-                background: #fff;
                 padding: 50px;
                 
             }
@@ -42,7 +40,7 @@
                             display: flex;
                             justify-content: space-between;
                             width: 50%;
-                            height: 52vw;
+                            height: 91vh;
                             flex-wrap: wrap;
                             .frame{
                                 .linebottom{
@@ -79,8 +77,8 @@
                                     // height: 1vw;
                                     width: 0;
                                     background: #000;
-                                    bottom: -12px;
-                                    height: 2.1vw;
+                                    bottom: -15px;
+                                    height: 2vw;
                                     &::before{
                                         content: '';
                                         width: 1px;
@@ -168,7 +166,7 @@
                             flex-wrap: wrap;
                             justify-content: space-between;
                             width: 50%;
-                            height: 52vw;
+                            height: 91vh;
                             .card{
                                 display: flex;
                                 width: 50%;
@@ -214,7 +212,7 @@
                                         &::before{
                                             content: '';
                                             width: 1px;
-                                            height: calc(100% + 11vw);
+                                            height: calc(100% + 10vw);
                                             background: #000;
                                             position: absolute;
                                             top: -1vw;
@@ -223,7 +221,7 @@
                                         &::after{
                                             content: '';
                                             width: 1px;
-                                            height: calc(100% + 11vw );
+                                            height: calc(100% + 10vw );
                                             background: #000;
                                             position: absolute;
                                             top: -1vw;
@@ -269,7 +267,7 @@
                                         &::before{
                                             content: '';
                                             width: 1px;
-                                            height: calc( 100% +  (2vw));
+                                            height: calc( 100% + 2vw);
                                             background: #000;
                                             position: absolute;
                                             left: -1vw;
@@ -326,6 +324,33 @@
                                 width: 50%;
                                 height: 12%;
                                 .frame{
+                                    // .lineleft{
+                                    //     width: 0;
+                                    //     height: 100%;
+                                    //     background: #000;
+                                    //     position: absolute;
+                                    //     display: block;
+                                    //     left: 0;
+                                    //     top: 0;
+                                    //     &::before{
+                                    //         content: '';
+                                    //         width: 1px;
+                                    //         height: 16vh;
+                                    //         background: #000;
+                                    //         position: absolute;
+                                    //         left: 24vw;
+                                    //         bottom: -1vw;
+                                    //     }
+                                    //     &::after{
+                                    //         content: '';
+                                    //         width: 1px;
+                                    //         height: 23px;
+                                    //         background: #000;
+                                    //         position: absolute;
+                                    //         left: 26vw;
+                                    //         bottom: -1vw;
+                                    //     }
+                                    // }
                                     
                                     .icon{
                                         position: absolute;
@@ -342,8 +367,97 @@
                 }
             }
         }
+        .sld2{     
+            padding: 40px;
+            background: #ececec;
+            >.inner{
+        
+                margin: 0 auto;
+                &::after{content: ''; display: block; clear: both;}
+                .wrap{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    background: #fff;
+
+                    .left{
+                        border-top: 1px solid #ececec;
+                        width: 600px;
+                        .topbox{
+                            width: 100%;
+                            height: 200px;
+                            border-bottom: 1px solid #ececec;
+                            border-right: 1px solid #ececec;
+                            
+                        }
+                        .middlebox{
+                            width: 100%;
+                            height: 360px;
+                            border-right: 1px solid #ececec;
+                            border-bottom: 1px solid #ececec;
+
+                        }
+                        .bottombox{
+                            width: 100%;
+                            height: 181px;
+                            border-right: 1px solid #ececec;
+                            border-bottom: 1px solid #ececec;
+
+
+                        }
+
+                    }
+                    
+                    .rightbox{
+                        width: 886px;
+                        .top{
+                            width: 100%;
+                            height: 561px;
+                            border-bottom: 1px solid #ececec;
+
+                        }
+                        .bottom{
+                            width: 100%;
+                            display: flex;
+                            
+                            article{
+                                width: 443px;
+                                height: 181px;
+                                padding: 12px 30px 0;
+                                position: relative;
+                                background: #fff;
+                                border-bottom: 1px solid #ececec;
+                                border-right: 1px solid #ececec;
+                                
+                            }
+                        }
+
+                    }
+                    
+                }
+            }
+        }
 
     }
+    .swiper-button-next {
+		top: auto;
+		bottom: 3vh;
+		right: 3vw;
+		transform: translateY(-50%);
+		transform: scale(0.6); 
+		filter: saturate(0%) brightness(100%);
+		opacity: 1;
+	}
+
+	.swiper-button-prev {
+		top: auto;
+		bottom: 3vh;
+		left: auto;
+		right: calc(3vw + 50px); 
+		transform: scale(0.6); 
+		filter: saturate(0%) brightness(100%);
+		opacity: 1;
+	}
 
     .swiper-pagination{
         position: absolute;

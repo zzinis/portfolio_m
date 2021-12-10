@@ -25,8 +25,6 @@ a {
       #wrap .swiper-wrapper .swiper-slide .inner {
         width: 100%;
         height: 100%;
-        border: 1px solid #fff;
-        background: #fff;
         padding: 50px; }
     #wrap .swiper-wrapper .sld1 .inner {
       background: #f7f3f0;
@@ -45,7 +43,7 @@ a {
             display: flex;
             justify-content: space-between;
             width: 50%;
-            height: 52vw;
+            height: 91vh;
             flex-wrap: wrap; }
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .linebottom {
               width: calc(100% + (1vw));
@@ -76,8 +74,8 @@ a {
               left: 50%;
               width: 0;
               background: #000;
-              bottom: -12px;
-              height: 2.1vw; }
+              bottom: -15px;
+              height: 2vw; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline::before {
                 content: '';
                 width: 1px;
@@ -139,7 +137,7 @@ a {
             flex-wrap: wrap;
             justify-content: space-between;
             width: 50%;
-            height: 52vw; }
+            height: 91vh; }
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card {
               display: flex;
               width: 50%;
@@ -180,7 +178,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .lineleft::before {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 11vw);
+                  height: calc(100% + 10vw);
                   background: #000;
                   position: absolute;
                   top: -1vw;
@@ -188,7 +186,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .lineleft::after {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 11vw );
+                  height: calc(100% + 10vw );
                   background: #000;
                   position: absolute;
                   top: -1vw;
@@ -225,7 +223,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .lineleft::before {
                   content: '';
                   width: 1px;
-                  height: calc( 100% +  (2vw));
+                  height: calc( 100% + 2vw);
                   background: #000;
                   position: absolute;
                   left: -1vw;
@@ -277,6 +275,71 @@ a {
                 height: 2vw;
                 bottom: -1.2vw;
                 left: 24.5vw; }
+    #wrap .swiper-wrapper .sld2 {
+      padding: 40px;
+      background: #ececec; }
+      #wrap .swiper-wrapper .sld2 > .inner {
+        margin: 0 auto; }
+        #wrap .swiper-wrapper .sld2 > .inner::after {
+          content: '';
+          display: block;
+          clear: both; }
+        #wrap .swiper-wrapper .sld2 > .inner .wrap {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          background: #fff; }
+          #wrap .swiper-wrapper .sld2 > .inner .wrap .left {
+            border-top: 1px solid #ececec;
+            width: 600px; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .left .topbox {
+              width: 100%;
+              height: 200px;
+              border-bottom: 1px solid #ececec;
+              border-right: 1px solid #ececec; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .left .middlebox {
+              width: 100%;
+              height: 360px;
+              border-right: 1px solid #ececec;
+              border-bottom: 1px solid #ececec; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .left .bottombox {
+              width: 100%;
+              height: 181px;
+              border-right: 1px solid #ececec;
+              border-bottom: 1px solid #ececec; }
+          #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox {
+            width: 886px; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .top {
+              width: 100%;
+              height: 561px;
+              border-bottom: 1px solid #ececec; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom {
+              width: 100%;
+              display: flex; }
+              #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article {
+                width: 443px;
+                height: 181px;
+                padding: 12px 30px 0;
+                position: relative;
+                background: #fff;
+                border-bottom: 1px solid #ececec;
+                border-right: 1px solid #ececec; }
+  #wrap .swiper-button-next {
+    top: auto;
+    bottom: 3vh;
+    right: 3vw;
+    transform: translateY(-50%);
+    transform: scale(0.6);
+    filter: saturate(0%) brightness(100%);
+    opacity: 1; }
+  #wrap .swiper-button-prev {
+    top: auto;
+    bottom: 3vh;
+    left: auto;
+    right: calc(3vw + 50px);
+    transform: scale(0.6);
+    filter: saturate(0%) brightness(100%);
+    opacity: 1; }
   #wrap .swiper-pagination {
     position: absolute;
     left: 20vw;
