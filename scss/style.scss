@@ -382,7 +382,7 @@
 
                     .left{
                         border-top: 1px solid #ececec;
-                        width: 600px;
+                        flex-basis: 35%;
                         .topbox{
                             width: 100%;
                             height: 200px;
@@ -409,7 +409,7 @@
                     }
                     
                     .rightbox{
-                        width: 886px;
+                        flex-basis: 65%;
                         .top{
                             width: 100%;
                             height: 561px;
@@ -421,7 +421,7 @@
                             display: flex;
                             
                             article{
-                                width: 443px;
+                                width: 100%;
                                 height: 181px;
                                 padding: 12px 30px 0;
                                 position: relative;
