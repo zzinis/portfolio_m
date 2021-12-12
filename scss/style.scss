@@ -367,7 +367,7 @@
                 }
             }
         }
-        .sld2{     
+        .sld2, .sld3{     
             padding: 40px;
             background: #ececec;
             >.inner{
@@ -429,7 +429,7 @@
                                 margin-bottom: 10px;
                             }
                             h2{
-                                font: 20px/1 'Noto Sans KR';
+                                font: 20px/1.4 'Noto Sans KR';
                             }
 
                         }
@@ -514,6 +514,7 @@
                 }
             }
         }
+        
 
     }
     .swiper-button-next {
