@@ -43,7 +43,7 @@
                             height: 91vh;
                             flex-wrap: wrap;
                             .frame{
-                                .linebottom{
+                                .line_bt{
                                     width: calc(100% + (1vw));
                                     height: 0;
                                     background: #000;
@@ -174,7 +174,7 @@
                                 transform-style: preserve-3d;
                                 transition: 0.5s;
                                 .frame{
-                                    .linebottom{
+                                    .line_bt{
                                         width: calc(100% + (1vw));
                                         height: 0;
                                         background: #000;
@@ -200,7 +200,7 @@
                                             left: -1vw;
                                         }
                                     }
-                                    .lineleft{
+                                    .line_lf{
                                         position: absolute;
                                         display: block;
                                         left: 0;
@@ -256,7 +256,7 @@
                                         left: -1vw;
                                         top: 0;
                                     }
-                                    .lineleft{
+                                    .line_lf{
                                         width: 0;
                                         height: 100%;
                                         background: #000;
@@ -283,7 +283,7 @@
                                             top: -1vw;
                                         }
                                     }
-                                    .linebottom{
+                                    .line_bt{
                                         width: calc(100% + 1vw);
                                         height: 0;
                                         background: #000;
@@ -324,33 +324,33 @@
                                 width: 50%;
                                 height: 12%;
                                 .frame{
-                                    // .lineleft{
-                                    //     width: 0;
-                                    //     height: 100%;
-                                    //     background: #000;
-                                    //     position: absolute;
-                                    //     display: block;
-                                    //     left: 0;
-                                    //     top: 0;
-                                    //     &::before{
-                                    //         content: '';
-                                    //         width: 1px;
-                                    //         height: 16vh;
-                                    //         background: #000;
-                                    //         position: absolute;
-                                    //         left: 24vw;
-                                    //         bottom: -1vw;
-                                    //     }
-                                    //     &::after{
-                                    //         content: '';
-                                    //         width: 1px;
-                                    //         height: 23px;
-                                    //         background: #000;
-                                    //         position: absolute;
-                                    //         left: 26vw;
-                                    //         bottom: -1vw;
-                                    //     }
-                                    // }
+                                    .lineleft{
+                                        width: 0;
+                                        height: 100%;
+                                        background: #000;
+                                        position: absolute;
+                                        display: block;
+                                        left: 0;
+                                        top: 0;
+                                        &::before{
+                                            content: '';
+                                            width: 1px;
+                                            height: 16vh;
+                                            background: #000;
+                                            position: absolute;
+                                            left: 24vw;
+                                            bottom: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 1px;
+                                            height: 16vh;
+                                            background: #000;
+                                            position: absolute;
+                                            left: 26vw;
+                                            bottom: -1vw;
+                                        }
+                                    }
                                     
                                     .icon{
                                         position: absolute;
@@ -367,11 +367,11 @@
                 }
             }
         }
-        .sld2, .sld3{     
-            padding: 40px;
+        .sld2, .sld3, .sld4, .sld5, .sld6{     
+            padding: 60px 40px;
             background: #ececec;
             >.inner{
-        
+                padding: 60px 50px;
                 margin: 0 auto;
                 &::after{content: ''; display: block; clear: both;}
                 .wrap{
@@ -433,7 +433,7 @@
                                 margin-bottom: 50px;
                             }
                             span{
-                                font: 16px/1.7 'Noto Sans KR';
+                                font: 16px/1.6 'Noto Sans KR';
                                 
                             }
 
