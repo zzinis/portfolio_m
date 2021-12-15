@@ -82,7 +82,7 @@ a {
                 height: 100%;
                 background: #000;
                 position: absolute;
-                top: 3px;
+                top: 5px;
                 left: -1vw; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline::after {
                 content: '';
@@ -90,7 +90,7 @@ a {
                 height: 100%;
                 background: #000;
                 position: absolute;
-                top: 3px;
+                top: 5px;
                 left: 1vw; }
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .icon {
               position: absolute;
@@ -110,7 +110,7 @@ a {
                 bottom: 4vw;
                 left: 3vw; }
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox svg text {
-                  font: bold 4.5vw/1 'Overpass';
+                  font: bold 4vw/1 'Overpass';
                   fill: #fff;
                   stroke: #111;
                   stroke-width: 2;
@@ -280,7 +280,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::before {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 2vw);
+                  height: 18.3vh;
                   background: #000;
                   position: absolute;
                   left: 24vw;
@@ -288,7 +288,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::after {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 2vw);
+                  height: 18.3vh;
                   background: #000;
                   position: absolute;
                   left: 26vw;
@@ -313,7 +313,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::before {
                   content: '';
                   width: 1px;
-                  height: 10vw;
+                  height: 18.3vh;
                   background: #000;
                   position: absolute;
                   right: 0.95vw;
@@ -321,7 +321,7 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::after {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 2vw);
+                  height: 18.3vh;
                   background: #000;
                   position: absolute;
                   right: 0vw;
