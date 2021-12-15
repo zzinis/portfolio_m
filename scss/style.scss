@@ -115,10 +115,12 @@
                             .leftbox{
                                 width: 100%;
                                 height: 100%;
+                                
                                 svg{
                                     position: absolute;
                                     bottom: 4vw;
                                     left: 3vw;
+
                                     text{
                                         font: bold 4.5vw/1 'Overpass';
                                         fill: #fff;
@@ -217,6 +219,7 @@
                                             position: absolute;
                                             top: -1vw;
                                             left: -1vw;
+                                            // left: 24vw;
                                         }
                                         &::after{
                                             content: '';
@@ -226,6 +229,7 @@
                                             position: absolute;
                                             top: -1vw;
                                             left: 1vw;
+                                            left:26vw;
                                         }
     
                                     }
@@ -494,12 +498,13 @@
 
                                 li{
                                     float: right;
-                                    margin-right: 15px;
+                                    margin-right: 25px;
                                     border: 1px solid #8b8b8b;
                                     border-radius: 10px;
                                     padding: 12px;
                                     top: 100px;
                                     position: relative;
+                                    transition: 0.5s ease-in-out;
                                     a{
                                         font: 16px/1 'Noto Sans KR';
                                         color: #8b8b8b;
@@ -507,7 +512,22 @@
                                     }
                                     &:nth-of-type(2){
                                         background: #404040;
+                                        
                                         a{color: #fff;}
+                                        &:hover{
+                                            background: #fff;
+                                            a{
+                                                color: #111;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover{
+                                        transform: translateY(5px);
+                                        background: #969696;
+                                        a{
+                                            color: #fff;
+                                        }
                                     }
                                 }
                                 

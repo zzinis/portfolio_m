@@ -190,7 +190,8 @@ a {
                   background: #000;
                   position: absolute;
                   top: -1vw;
-                  left: 1vw; }
+                  left: 1vw;
+                  left: 26vw; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon {
                 position: absolute;
                 width: 2vw;
@@ -399,18 +400,28 @@ a {
                   clear: both; }
                 #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li {
                   float: right;
-                  margin-right: 15px;
+                  margin-right: 25px;
                   border: 1px solid #8b8b8b;
                   border-radius: 10px;
                   padding: 12px;
                   top: 100px;
-                  position: relative; }
+                  position: relative;
+                  transition: 0.5s ease-in-out; }
                   #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li a {
                     font: 16px/1 'Noto Sans KR';
                     color: #8b8b8b; }
                   #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) {
                     background: #404040; }
                     #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a {
+                      color: #fff; }
+                    #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover {
+                      background: #fff; }
+                      #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a {
+                        color: #111; }
+                  #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:hover {
+                    transform: translateY(5px);
+                    background: #969696; }
+                    #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:hover a {
                       color: #fff; }
   #wrap .swiper-button-next {
     top: auto;
