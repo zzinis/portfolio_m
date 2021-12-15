@@ -178,19 +178,18 @@ a {
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::before {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 10vw);
+                  height: calc(100% + 2vw);
                   background: #000;
                   position: absolute;
                   top: -1vw;
-                  left: -1vw; }
+                  left: 24vw; }
                 #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::after {
                   content: '';
                   width: 1px;
-                  height: calc(100% + 10vw );
+                  height: calc(100% + 2vw );
                   background: #000;
                   position: absolute;
                   top: -1vw;
-                  left: 1vw;
                   left: 26vw; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon {
                 position: absolute;
@@ -206,7 +205,7 @@ a {
               width: 50%;
               height: 12%; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .linecenter {
-                width: calc(100% + 1vw);
+                width: calc(100% + 2vw);
                 height: 1px;
                 background: #000;
                 position: absolute;
@@ -270,7 +269,7 @@ a {
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 {
               width: 50%;
               height: 12%; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .lineleft {
+              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf {
                 width: 0;
                 height: 100%;
                 background: #000;
@@ -278,23 +277,56 @@ a {
                 display: block;
                 left: 0;
                 top: 0; }
-                #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .lineleft::before {
+                #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::before {
                   content: '';
                   width: 1px;
-                  height: 16vh;
+                  height: calc(100% + 2vw);
                   background: #000;
                   position: absolute;
                   left: 24vw;
                   bottom: -1vw; }
-                #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .lineleft::after {
+                #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::after {
                   content: '';
                   width: 1px;
-                  height: 16vh;
+                  height: calc(100% + 2vw);
                   background: #000;
                   position: absolute;
                   left: 26vw;
                   bottom: -1vw; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .icon {
+                position: absolute;
+                width: 2vw;
+                height: 2vw;
+                bottom: -1.4vw;
+                left: 24.6vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 {
+              width: 50%;
+              height: 12%; }
+              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf {
+                width: 0;
+                height: 100%;
+                background: #000;
+                position: absolute;
+                display: block;
+                right: 0;
+                top: 0; }
+                #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::before {
+                  content: '';
+                  width: 1px;
+                  height: 10vw;
+                  background: #000;
+                  position: absolute;
+                  right: 0.95vw;
+                  bottom: -1vw; }
+                #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::after {
+                  content: '';
+                  width: 1px;
+                  height: calc(100% + 2vw);
+                  background: #000;
+                  position: absolute;
+                  right: 0vw;
+                  bottom: -1vw; }
+              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .icon {
                 position: absolute;
                 width: 2vw;
                 height: 2vw;

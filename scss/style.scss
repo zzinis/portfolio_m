@@ -214,21 +214,21 @@
                                         &::before{
                                             content: '';
                                             width: 1px;
-                                            height: calc(100% + 10vw);
+                                            height: calc(100% + 2vw);
                                             background: #000;
                                             position: absolute;
                                             top: -1vw;
-                                            left: -1vw;
-                                            // left: 24vw;
+                                            // left: -1vw;
+                                            left: 24vw;
                                         }
                                         &::after{
                                             content: '';
                                             width: 1px;
-                                            height: calc(100% + 10vw );
+                                            height: calc(100% + 2vw );
                                             background: #000;
                                             position: absolute;
                                             top: -1vw;
-                                            left: 1vw;
+                                            // left: 1vw;
                                             left:26vw;
                                         }
     
@@ -252,7 +252,7 @@
                                 height: 12%;
                                 .frame{
                                     .linecenter{
-                                        width: calc(100% + 1vw);
+                                        width: calc(100% + 2vw);
                                         height: 1px;
                                         background: #000;
                                         position: absolute;
@@ -328,7 +328,7 @@
                                 width: 50%;
                                 height: 12%;
                                 .frame{
-                                    .lineleft{
+                                    .line_lf{
                                         width: 0;
                                         height: 100%;
                                         background: #000;
@@ -339,7 +339,7 @@
                                         &::before{
                                             content: '';
                                             width: 1px;
-                                            height: 16vh;
+                                            height: calc(100% + 2vw);
                                             background: #000;
                                             position: absolute;
                                             left: 24vw;
@@ -348,10 +348,52 @@
                                         &::after{
                                             content: '';
                                             width: 1px;
-                                            height: 16vh;
+                                            height: calc(100% + 2vw);
                                             background: #000;
                                             position: absolute;
                                             left: 26vw;
+                                            bottom: -1vw;
+                                        }
+                                    }
+                                    
+                                    .icon{
+                                        position: absolute;
+                                        width: 2vw;
+                                        height: 2vw;
+                                        bottom: -1.4vw;
+                                        left: 24.6vw;
+                                    }
+                                    
+                                }
+                            }
+                            .box2{
+                                width: 50%;
+                                height: 12%;
+                                .frame{
+                                    .line_lf{
+                                        width: 0;
+                                        height: 100%;
+                                        background: #000;
+                                        position: absolute;
+                                        display: block;
+                                        right: 0;
+                                        top: 0;
+                                        &::before{
+                                            content: '';
+                                            width: 1px;
+                                            height: 10vw;
+                                            background: #000;
+                                            position: absolute;
+                                            right: 0.95vw;
+                                            bottom: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 1px;
+                                            height: calc(100% + 2vw);
+                                            background: #000;
+                                            position: absolute;
+                                            right: 0vw;
                                             bottom: -1vw;
                                         }
                                     }
