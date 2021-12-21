@@ -1,4 +1,4 @@
-const menu = ["About", "Jquery Website","JS Website", "Swiper", "Isotope", "React Website"]
+const menu = ["About", "Jquery Website","JS Website", "Swiper", "Isotope", "React Website", "Contact"]
 
 const swiper = new Swiper("#wrap",{
 
