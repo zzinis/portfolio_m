@@ -10,6 +10,12 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/a5faf288a0.js" crossorigin="anonymous"></script>
     <script defer src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_W97Pif6Cvuo1f2mZRiYAQ");
+        })();
+    </script>
 </head>
 <body>
 
@@ -307,6 +313,16 @@
 
             </div>
             <div class="swiper-slide sld7">
+                <div class="inner">
+                    <form id="contact-form">
+                        <input type="hidden" name="contact_number">
+                        <input type="text" required placeholder="이름을 입력하세요" name="to_name">
+                        <input type="text" required placeholder="연락처를 입력하세요" name="contact">
+                        <input type="email" required placeholder="이메일을 입력하세요" name="from_name">
+                        <textarea required placeholder="문의내용을 입력하세요*" name="message_html"></textarea>
+                        <input type="submit" value="문의하기">
+                    </form>
+                </div>
                 
             </div>
             
