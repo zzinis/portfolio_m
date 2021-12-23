@@ -455,6 +455,15 @@ a {
                     background: #969696; }
                     #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:hover a {
                       color: #fff; }
+    #wrap .swiper-wrapper .sld7 {
+      background: #ececec; }
+      #wrap .swiper-wrapper .sld7 .inner {
+        background: #fff;
+        margin: 150px auto;
+        width: 1200px;
+        height: 700px; }
+        #wrap .swiper-wrapper .sld7 .inner h1 {
+          font: bold 40px/1 'Heebo'; }
   #wrap .swiper-button-next {
     top: auto;
     bottom: 3vh;
