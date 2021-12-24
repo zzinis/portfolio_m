@@ -318,9 +318,12 @@
                     <h1>CONTACT</h1>
                     <form id="contact-form">
                         <input type="hidden" name="contact_number">
-                        <input type="text" required placeholder="이름을 입력하세요" name="to_name">
-                        <input type="text" required placeholder="연락처를 입력하세요" name="contact">
-                        <input type="email" required placeholder="이메일을 입력하세요" name="from_name">
+                        <label for="name">이름 : </label>
+                        <input type="text" required  name="to_name">
+                        <label for="contact">연락처 : </label>
+                        <input type="text" required name="contact">
+                        <label for="email">이메일 : </label>
+                        <input type="email" required  name="from_name">
                         <textarea required placeholder="문의내용을 입력하세요*" name="message_html" cols="30" rows="5"></textarea>
                         <input type="submit" value="문의하기">
                     </form>

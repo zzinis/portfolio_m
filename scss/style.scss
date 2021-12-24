@@ -584,14 +584,29 @@
         .sld7{
             background: #ececec;
             .inner{
-                background: #fff;
+                background: #222;
                 margin: 150px auto;
                 width:1200px;
                 height: 700px;
 
                 h1{
                     font: bold 40px/1 'Heebo';
+                    margin-bottom: 50px;
+                    color: #fff;
                 }
+                label{
+                    font: 15px/1 'Noto sans KR';
+                    display: inline-block;
+                    color: #fff;
+                }
+                input{
+                    display: inline-block;
+                    border: none;
+                    border-bottom: 2px solid #fff;
+                    margin-bottom: 30px; color: #fff;
+                    
+                }
+
             }
         }
         
