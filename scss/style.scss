@@ -591,7 +591,6 @@
                 .wrap{
                     width: 100%;
                     display: flex;
-                    flex-wrap: wrap;
                     background: #fff;
 
                     .left{
@@ -672,6 +671,7 @@
                             height: 561px;
                             border-bottom: 1px solid #ececec;
                             padding: 100px 150px;
+
                             
                             input[type="text"],input[type="email"]{
                                 width: 100%;

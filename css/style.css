@@ -468,7 +468,6 @@ a {
         #wrap .swiper-wrapper .sld7 > .inner .wrap {
           width: 100%;
           display: flex;
-          flex-wrap: wrap;
           background: #fff; }
           #wrap .swiper-wrapper .sld7 > .inner .wrap .left {
             border-top: 1px solid #ececec;
