@@ -581,32 +581,198 @@
                 }
             }
         }
-        .sld7{
+        .sld7{     
+            padding: 60px 40px;
             background: #ececec;
-            .inner{
-                background: #222;
-                margin: 150px auto;
-                width:1200px;
-                height: 700px;
+            >.inner{
+                padding: 60px 50px;
+                margin: 0 auto;
+                &::after{content: ''; display: block; clear: both;}
+                .wrap{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    background: #fff;
 
-                h1{
-                    font: bold 40px/1 'Heebo';
-                    margin-bottom: 50px;
-                    color: #fff;
-                }
-                label{
-                    font: 15px/1 'Noto sans KR';
-                    display: inline-block;
-                    color: #fff;
-                }
-                input{
-                    display: inline-block;
-                    border: none;
-                    border-bottom: 2px solid #fff;
-                    margin-bottom: 30px; color: #fff;
+                    .left{
+                        border-top: 1px solid #ececec;
+                        flex-basis: 35%;
+                        
+                        .topbox{
+                            width: 100%;
+                            height: 200px;
+                            border-bottom: 1px solid #ececec;
+                            border-right: 1px solid #ececec;
+                            display: flex;
+                            position: relative;
+                            .lbox{
+                                padding: 30px;
+                                width: 100%;
+                                background: #e4e4e4;
+                                >h1{
+                                    font: bold 130px/1 'Heebo';
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    &::before, &::after{
+                                        content: '';
+                                        display: block;
+                                        width: 100%;
+                                        height: 100%;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        
+                                    }
+                                    &::after{
+                                        background-image: url(../img/pixel.png);
+                                        background-size: 2px 2px;
+                                        background-position: 0 0;
+                                    }
+                                }
+                            }
+                            
+                        }
+                        .middlebox{
+                            width: 100%;
+                            height: 360px;
+                            border-right: 1px solid #ececec;
+                            border-bottom: 1px solid #ececec;
+                            padding: 30px;
+                            h2{
+                                font: 40px/1.4 'Heebo';
+                                margin-bottom: 50px;
+                            }
+                            span{
+                                font: 16px/1.6 'Noto Sans KR';
+                                
+                            }
+
+                        }
+                        .bottombox{
+                            width: 100%;
+                            height: 181px;
+                            border-right: 1px solid #ececec;
+                            border-bottom: 1px solid #ececec;
+                            padding: 30px;
+                            p{
+                                font: 15px/1 'Heebo';
+                                margin-bottom: 10px;
+                                color: #9a9a9a;
+                            }
+
+
+                        }
+
+                    }
+                    
+                    .rightbox{
+                        flex-basis: 65%;
+                        .top{
+                            width: 100%;
+                            height: 561px;
+                            border-bottom: 1px solid #ececec;
+                            padding: 100px 150px;
+                            
+                            input[type="text"],input[type="email"]{
+                                width: 100%;
+                                height: 58px;
+                                margin-bottom: 15px;
+                                border: 1px solid #ced4da;
+                                padding: 16px 12px;
+                                font: 15px/1 'Heebo';
+                                border-radius: 5px;
+
+                            }
+                            textarea{
+                                width: 100%;
+                                height: 120px;
+                                margin-bottom: 25px;
+                                border: 1px solid #ced4da;
+                                padding: 16px 12px;
+                                font: 15px/1 'Heebo';
+                                border-radius: 5px;
+
+                            }
+                            input[type="submit"]{
+                                background: #212529;
+                                color: #fff;
+                                width: 135px;
+                                height: 38px;
+                                text-align: center;
+                                margin: 0 auto;
+                                display: block;
+                                font: 14px/35px  'Noto sans KR';
+                                border: 1px solid #111;
+                                cursor: pointer;
+                            }
+
+                        }
+                        .bottom{
+                            width: 100%;
+                            display: flex;
+                            background: #e4e4e4;
+                            .bottom_l{
+                                background-image: url(../img/pixel.png);
+                                background-size: 2px 2px;
+                                background-position: 0 0;
+                            }
+                            article{
+                                width: 100%;
+                                height: 181px;
+                                position: relative;
+                                border-bottom: 1px solid #ececec;
+                                border-right: 1px solid #ececec;
+                                &:nth-of-type(2){
+                                    background: #fff;
+                                }
+                                
+                                
+                                &::after{
+                                    content: ''; display: block; clear: both;
+                                }
+                                
+
+                                li{
+                                    float: right;
+                                    margin-right: 25px;
+                                    border: 1px solid #8b8b8b;
+                                    border-radius: 10px;
+                                    padding: 12px;
+                                    top: 100px;
+                                    position: relative;
+                                    transition: 0.5s ease-in-out;
+                                    a{
+                                        font: 16px/1 'Noto Sans KR';
+                                        color: #8b8b8b;
+                                        
+                                    }
+                                    &:nth-of-type(2){
+                                        background: #404040;
+                                        
+                                        a{color: #fff;}
+                                        &:hover{
+                                            background: #fff;
+                                            a{
+                                                color: #111;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover{
+                                        transform: translateY(5px);
+                                        background: #969696;
+                                        a{
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                        }
+
+                    }
                     
                 }
-
             }
         }
         
