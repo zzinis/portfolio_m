@@ -823,3 +823,773 @@
     }
 
 }
+
+
+@media screen and (max-width:1300px) {
+    #wrap {  
+        .swiper-wrapper {
+
+            .swiper-slide {
+    
+                .inner {
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+            .sld1{
+                .inner{
+                    background: #f7f3f0;
+                    padding: 0;
+                    .container{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: space-between;
+                        perspective: 600px;
+                        .wrap{
+                            width: 100%;
+                            display: flex;
+                            .left{
+                                position: relative;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 50%;
+                                height: 91vh;
+                                flex-wrap: wrap;
+                                .frame{
+                                    .line_bt{
+                                        width: calc(100% + (1vw));
+                                        height: 0;
+                                        background: #000;
+                                        position: absolute;
+                                        left: 0;
+                                        bottom: 0;
+                                        &::before{
+                                            content: '';
+                                            width: 100%;
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            bottom: -1vw;
+                                            left: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 100%;
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            bottom: 1vw;
+                                            left: -1vw;
+                                        }
+                                    }
+                                    .midline{
+                                        position: absolute;
+                                        display: block;
+                                        left: 50%;
+                                        // bottom: 0;
+                                        // height: 1vw;
+                                        width: 0;
+                                        background: #000;
+                                        bottom: -15px;
+                                        height: 2vw;
+                                        &::before{
+                                            content: '';
+                                            width: 1px;
+                                            height: 100%;
+                                            background: #000;
+                                            position: absolute;
+                                            top: 5px;
+                                            left: -1vw;
+                                        }
+                                        &::after{
+                                            content: '';
+                                            width: 1px;
+                                            height: 100%;
+                                            background: #000;
+                                            position: absolute;
+                                            top: 5px;
+                                            left: 1vw;
+                                        }
+    
+                                    }
+                                    .icon{
+                                        position: absolute;
+                                        width: 2vw;
+                                        height: 2vw;
+                                        bottom: -1.4vw;
+                                        left: 49.2%;
+                                        span{
+                                            position: absolute;
+                                            width: inherit;
+                                            height: inherit;
+                                        }
+                                    }
+                                }
+                                .leftbox{
+                                    width: 100%;
+                                    height: 100%;
+                                    
+                                    svg{
+                                        position: absolute;
+                                        bottom: 4vw;
+                                        left: 3vw;
+    
+                                        text{
+                                            font: bold 4vw/1 'Overpass';
+                                            fill: #fff;
+                                            stroke: #111;
+                                            stroke-width: 2;
+                                            stroke-linejoin: miter;
+                                            stroke-linecap: square;
+                                            stroke-dasharray: 240px;
+                                            stroke-dashoffset: 240px;
+                                            transform: scale(0.96);
+                                            transform-origin: center center;
+                                            animation: ani 3s alternate-reverse linear infinite;
+    
+                                        }
+                                    }
+                                    
+                                    @keyframes ani{
+                                        0%{ stroke-dashoffset:240px;
+                                            transition: stroke-dashoffset 1s 1s, fill 1s 0s; 
+                                        }
+                
+                                        100%{ 
+                                            fill: #fff;
+                                            stroke-width: 1;
+                                            stroke-dashoffset:0px;
+                                            stroke-dashoffset: 0;
+                                            transition: stroke-dashoffset 1s 0s, fill 1s 1s;
+                                        }
+                                    }
+                                    // svg{
+                                    //     position: absolute;
+                                    //     bottom: 4vw;
+                                    //     // font: 50px/1 'Heebo';
+                                    //     font: bold 6vw/1 'Heebo';
+                                    //     color: #fff;
+                                    //     // text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+                                    //     -webkit-text-stroke: 0.5px #111;
+                                    //     padding-left: 2vw;
+                                    // }
+                                }
+                            }
+                            .right{
+                                position: relative;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                width: 50%;
+                                height: 91vh;
+                                .card{
+                                    display: flex;
+                                    width: 50%;
+                                    height: 40%;
+                                    transform-style: preserve-3d;
+                                    transition: 0.5s;
+                                    .frame{
+                                        .line_bt{
+                                            width: calc(100% + (1vw));
+                                            height: 0;
+                                            background: #000;
+                                            position: absolute;
+                                            left: 0;
+                                            bottom: 0;
+                                            &::before{
+                                                content: '';
+                                                width: 100%;
+                                                height: 1px;
+                                                background: #000;
+                                                position: absolute;
+                                                bottom: -1vw;
+                                                left: -1vw;
+                                            }
+                                            &::after{
+                                                content: '';
+                                                width: 100%;
+                                                height: 1px;
+                                                background: #000;
+                                                position: absolute;
+                                                bottom: 1vw;
+                                                left: -1vw;
+                                            }
+                                        }
+                                        .line_lf{
+                                            position: absolute;
+                                            display: block;
+                                            left: 0;
+                                            top: 0;
+                                            width: 0;
+                                            height: 100%;
+                                            background: #000;
+    
+                                            &::before{
+                                                content: '';
+                                                width: 1px;
+                                                height: calc(100% + 2vw);
+                                                background: #000;
+                                                position: absolute;
+                                                top: -1vw;
+                                                // left: -1vw;
+                                                left: 24vw;
+                                            }
+                                            &::after{
+                                                content: '';
+                                                width: 1px;
+                                                height: calc(100% + 2vw );
+                                                background: #000;
+                                                position: absolute;
+                                                top: -1vw;
+                                                // left: 1vw;
+                                                left:26vw;
+                                            }
+        
+                                        }
+                                        .icon{
+                                            position: absolute;
+                                            width: 2vw;
+                                            height: 2vw;
+                                            bottom: -1.4vw;
+                                            left: -0.4vw;
+                                            span{
+                                                position: absolute;
+                                                width: inherit;
+                                                height: inherit;
+                                            }
+                                        }
+                                    }
+                                }
+                                .box{
+                                    width: 50%;
+                                    height: 12%;
+                                    .frame{
+                                        .linecenter{
+                                            width: calc(100% + 2vw);
+                                            height: 1px;
+                                            background: #000;
+                                            position: absolute;
+                                            display: block;
+                                            left: -1vw;
+                                            top: 0;
+                                        }
+                                        .line_lf{
+                                            width: 0;
+                                            height: 100%;
+                                            background: #000;
+                                            position: absolute;
+                                            display: block;
+                                            left: 0;
+                                            top: 0;
+                                            &::before{
+                                                content: '';
+                                                width: 1px;
+                                                height: calc( 100% + 2vw);
+                                                background: #000;
+                                                position: absolute;
+                                                left: -1vw;
+                                                top: -1vw;
+                                            }
+                                            &::after{
+                                                content: '';
+                                                width: 1px;
+                                                height: calc(100% + 2vw);
+                                                background: #000;
+                                                position: absolute;
+                                                left: 1vw;
+                                                top: -1vw;
+                                            }
+                                        }
+                                        .line_bt{
+                                            width: calc(100% + 1vw);
+                                            height: 0;
+                                            background: #000;
+                                            position: absolute;
+                                            display: block;
+                                            left: 0;
+                                            bottom: 0;
+                                            &::before{
+                                                content: '';
+                                                width: 100%;
+                                                height: 1px;
+                                                background: #000;
+                                                position: absolute;
+                                                left: -1vw;
+                                                bottom: -1vw;
+                                            }
+                                            &::after{
+                                                content: '';
+                                                width: 100%;
+                                                height: 1px;
+                                                background: #000;
+                                                position: absolute;
+                                                bottom: 1vw;
+                                                left: -1vw;
+                                            }
+                                        }
+                                        .icon{
+                                            position: absolute;
+                                            width: 2vw;
+                                            height: 2vw;
+                                            bottom: -1.4vw;
+                                            left: -0.4vw;
+                                        }
+                                        
+                                    }
+                                }
+                                .box1{
+                                    width: 50%;
+                                    height: 12%;
+                                    .frame{
+                                        .line_lf{
+                                            width: 0;
+                                            height: 100%;
+                                            background: #000;
+                                            position: absolute;
+                                            display: block;
+                                            left: 0;
+                                            top: 0;
+                                            &::before{
+                                                content: '';
+                                                width: 1px;
+                                                height: 18.3vh;
+                                                background: #000;
+                                                position: absolute;
+                                                left: 24vw;
+                                                bottom: -1vw;
+                                            }
+                                            &::after{
+                                                content: '';
+                                                width: 1px;
+                                                height: 18.3vh;
+                                                background: #000;
+                                                position: absolute;
+                                                left: 26vw;
+                                                bottom: -1vw;
+                                            }
+                                        }
+                                        
+                                        .icon{
+                                            position: absolute;
+                                            width: 2vw;
+                                            height: 2vw;
+                                            bottom: -1.4vw;
+                                            left: 24.6vw;
+                                        }
+                                        
+                                    }
+                                }
+                                .box2{
+                                    width: 50%;
+                                    height: 12%;
+                                    .frame{
+                                        .line_lf{
+                                            width: 0;
+                                            height: 100%;
+                                            background: #000;
+                                            position: absolute;
+                                            display: block;
+                                            right: 0;
+                                            top: 0;
+                                            &::before{
+                                                content: '';
+                                                width: 1px;
+                                                height: 18.3vh;
+                                                background: #000;
+                                                position: absolute;
+                                                right: 0.95vw;
+                                                bottom: -1vw;
+                                            }
+                                            &::after{
+                                                content: '';
+                                                width: 1px;
+                                                height: 18.3vh;
+                                                background: #000;
+                                                position: absolute;
+                                                right: 0vw;
+                                                bottom: -1vw;
+                                            }
+                                        }
+                                        
+                                        .icon{
+                                            position: absolute;
+                                            width: 2vw;
+                                            height: 2vw;
+                                            bottom: -1.4vw;
+                                            left: 24.6vw;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sld2, .sld3, .sld4, .sld5, .sld6{     
+
+                >.inner{
+                    width: 100%;
+                    margin: 0 auto;
+                    padding: 80px 30px;
+                    .wrap{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+    
+                        .left{
+                            flex-basis: 0;
+                            display: flex;
+                            
+                            .topbox{
+                                width: 20%;
+                                height: 250px;
+                                display: inline-block;
+                                .lbox{
+                                    padding: 30px;
+                                    width: 100%;
+                                    height: 100%;
+                                    >h1{
+                                        margin: 40px auto;
+                                    }
+                                }
+                                .rbox{
+                                    display: none;
+                                }
+                                
+                            }
+                            .middlebox{
+                                display: inline-block;
+                                width: 50%;
+                                height: 250px;
+                                padding: 30px;
+
+                                span{
+                                    font: 14px/1.7 'Noto Sans KR';
+                                    
+                                }
+    
+                            }
+                            .bottombox{
+                                display: inline-block;
+                                width: 30%;
+                                height: 250px;
+                            }
+    
+                        }
+                        
+                        .rightbox{
+                            flex-basis: 0%;
+                            display: flex;
+                            .top{
+                                width: 100%;
+                                height: 400px;
+                            }
+                            .bottom{
+                                width: 43%;
+                                display: flex;
+
+                                .bottom_l{
+                                    display: none;
+                                }
+                                article{
+                                    width: 100%;
+                                    height: 100%;
+
+                                    &:nth-of-type(2){
+                                        background: url(../img/pixel.png);
+                                        background-size: 2px 2px;
+                                        background-position: 0 0;
+                                    }
+                                    
+                                    
+    
+                                    li{
+                                        float: none;
+                                        display: inline-block;
+                                        margin-right: 0px;
+                                        margin: 20px 40px;
+                                        background: #fff;
+                                        border-radius: 10px;
+                                        padding: 12px;
+                                        position: initial;
+                                        a{
+                                            font: 16px/1 'Noto Sans KR';
+                                            color: #8b8b8b;
+                                            
+                                        }
+                                        &:nth-of-type(2){
+                                            background: #404040;
+                                            
+                                            a{color: #fff;}
+                                            &:hover{
+                                                background: #fff;
+                                                a{
+                                                    color: #111;
+                                                }
+                                            }
+                                        }
+    
+                                        &:hover{
+                                            transform: translateY(5px);
+                                            background: #969696;
+                                            a{
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                            }
+    
+                        }
+                        
+                    }
+                }
+            }
+            .sld7{     
+                padding: 60px 40px;
+                background: #ececec;
+                >.inner{
+                    padding: 60px 50px;
+                    margin: 0 auto;
+                    &::after{content: ''; display: block; clear: both;}
+                    .wrap{
+                        width: 100%;
+                        display: flex;
+                        background: #fff;
+    
+                        .left{
+                            border-top: 1px solid #ececec;
+                            flex-basis: 35%;
+                            
+                            .topbox{
+                                width: 100%;
+                                height: 200px;
+                                border-bottom: 1px solid #ececec;
+                                border-right: 1px solid #ececec;
+                                display: flex;
+                                position: relative;
+                                .lbox{
+                                    padding: 30px;
+                                    width: 100%;
+                                    background: #e4e4e4;
+                                    >h1{
+                                        font: bold 130px/1 'Heebo';
+                                        text-align: center;
+                                        vertical-align: middle;
+                                        &::before, &::after{
+                                            content: '';
+                                            display: block;
+                                            width: 100%;
+                                            height: 100%;
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            
+                                        }
+                                        &::after{
+                                            background-image: url(../img/pixel.png);
+                                            background-size: 2px 2px;
+                                            background-position: 0 0;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .middlebox{
+                                width: 100%;
+                                height: 360px;
+                                border-right: 1px solid #ececec;
+                                border-bottom: 1px solid #ececec;
+                                padding: 30px;
+                                h2{
+                                    font: 40px/1.4 'Heebo';
+                                    margin-bottom: 50px;
+                                }
+                                span{
+                                    font: 16px/1.6 'Noto Sans KR';
+                                    
+                                }
+    
+                            }
+                            .bottombox{
+                                width: 100%;
+                                height: 181px;
+                                border-right: 1px solid #ececec;
+                                border-bottom: 1px solid #ececec;
+                                padding: 30px;
+                                p{
+                                    font: 15px/1 'Heebo';
+                                    margin-bottom: 10px;
+                                    color: #9a9a9a;
+                                }
+    
+    
+                            }
+    
+                        }
+                        
+                        .rightbox{
+                            flex-basis: 65%;
+                            .top{
+                                width: 100%;
+                                height: 561px;
+                                border-bottom: 1px solid #ececec;
+                                padding: 100px 150px;
+    
+                                
+                                input[type="text"],input[type="email"]{
+                                    width: 100%;
+                                    height: 58px;
+                                    margin-bottom: 15px;
+                                    border: 1px solid #ced4da;
+                                    padding: 16px 12px;
+                                    font: 15px/1 'Heebo';
+                                    border-radius: 5px;
+    
+                                }
+                                textarea{
+                                    width: 100%;
+                                    height: 120px;
+                                    margin-bottom: 25px;
+                                    border: 1px solid #ced4da;
+                                    padding: 16px 12px;
+                                    font: 15px/1 'Heebo';
+                                    border-radius: 5px;
+    
+                                }
+                                input[type="submit"]{
+                                    background: #212529;
+                                    color: #fff;
+                                    width: 135px;
+                                    height: 38px;
+                                    text-align: center;
+                                    margin: 0 auto;
+                                    display: block;
+                                    font: 14px/35px  'Noto sans KR';
+                                    border: 1px solid #111;
+                                    cursor: pointer;
+                                }
+    
+                            }
+                            .bottom{
+                                width: 100%;
+                                display: flex;
+                                background: #e4e4e4;
+                                .bottom_l{
+                                    background-image: url(../img/pixel.png);
+                                    background-size: 2px 2px;
+                                    background-position: 0 0;
+                                }
+                                article{
+                                    width: 100%;
+                                    height: 181px;
+                                    position: relative;
+                                    border-bottom: 1px solid #ececec;
+                                    border-right: 1px solid #ececec;
+                                    &:nth-of-type(2){
+                                        background: #fff;
+                                    }
+                                    
+                                    
+                                    &::after{
+                                        content: ''; display: block; clear: both;
+                                    }
+                                    
+    
+                                    li{
+                                        float: right;
+                                        margin-right: 25px;
+                                        border: 1px solid #8b8b8b;
+                                        border-radius: 10px;
+                                        padding: 12px;
+                                        top: 100px;
+                                        position: relative;
+                                        transition: 0.5s ease-in-out;
+                                        a{
+                                            font: 16px/1 'Noto Sans KR';
+                                            color: #8b8b8b;
+                                            
+                                        }
+                                        &:nth-of-type(2){
+                                            background: #404040;
+                                            
+                                            a{color: #fff;}
+                                            &:hover{
+                                                background: #fff;
+                                                a{
+                                                    color: #111;
+                                                }
+                                            }
+                                        }
+    
+                                        &:hover{
+                                            transform: translateY(5px);
+                                            background: #969696;
+                                            a{
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                            }
+    
+                        }
+                        
+                    }
+                }
+            }
+            
+    
+        }
+        .swiper-button-next {
+            top: auto;
+            bottom: 3vh;
+            right: 3vw;
+            transform: translateY(-50%);
+            transform: scale(0.6); 
+            filter: saturate(0%) brightness(100%);
+            opacity: 1;
+        }
+    
+        .swiper-button-prev {
+            top: auto;
+            bottom: 3vh;
+            left: auto;
+            right: calc(3vw + 50px); 
+            transform: scale(0.6); 
+            filter: saturate(0%) brightness(100%);
+            opacity: 1;
+        }
+    
+        .swiper-pagination{
+            position: absolute;
+            left: 10vw;
+            top: 3vh;
+            right: auto;
+            width: auto;
+            span{
+                width: auto;
+                height: auto;
+                background: transparent;
+                border-radius: 0;
+                opacity: 0.7;
+                margin-left: 30px;
+                font: 15px/1 'Archivo';
+                
+    
+                &.swiper-pagination-bullet-active{
+                    opacity: 1;
+                    font-weight: bold;
+                }
+            }
+    
+        }
+    
+    }
+    
+}
