@@ -996,10 +996,9 @@ a {
               background-size: 2px 2px;
               background-position: 0 0; }
             #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li {
-              float: none;
               display: inline-block;
               margin-right: 0px;
-              margin: 20px 40px;
+              margin: 20px 10px;
               background: #fff;
               border-radius: 10px;
               padding: 12px;
