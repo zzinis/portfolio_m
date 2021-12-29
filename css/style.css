@@ -637,101 +637,99 @@ a {
   #wrap .swiper-wrapper .swiper-slide .inner {
     width: 100%;
     height: 100%; }
-  #wrap .swiper-wrapper .sld1 .inner {
-    background: #f7f3f0;
-    padding: 0; }
-    #wrap .swiper-wrapper .sld1 .inner .container {
+  #wrap .swiper-wrapper .sld1 .inner .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    perspective: 600px; }
+    #wrap .swiper-wrapper .sld1 .inner .container .wrap {
       width: 100%;
-      height: auto;
       display: flex;
-      justify-content: space-between;
-      perspective: 600px; }
-      #wrap .swiper-wrapper .sld1 .inner .container .wrap {
+      flex-direction: column; }
+      #wrap .swiper-wrapper .sld1 .inner .container .wrap .left {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
         width: 100%;
-        display: flex; }
-        #wrap .swiper-wrapper .sld1 .inner .container .wrap .left {
-          position: relative;
-          display: flex;
-          justify-content: space-between;
-          width: 50%;
-          height: 91vh;
-          flex-wrap: wrap; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .line_bt {
-            width: calc(100% + (1vw));
-            height: 0;
-            background: #000;
-            position: absolute;
-            left: 0;
-            bottom: 0; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .line_bt::before {
-              content: '';
-              width: 100%;
-              height: 1px;
-              background: #000;
-              position: absolute;
-              bottom: -1vw;
-              left: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .line_bt::after {
-              content: '';
-              width: 100%;
-              height: 1px;
-              background: #000;
-              position: absolute;
-              bottom: 1vw;
-              left: -1vw; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline {
-            position: absolute;
-            display: block;
-            left: 50%;
-            width: 0;
-            background: #000;
-            bottom: -15px;
-            height: 2vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline::before {
-              content: '';
-              width: 1px;
-              height: 100%;
-              background: #000;
-              position: absolute;
-              top: 5px;
-              left: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline::after {
-              content: '';
-              width: 1px;
-              height: 100%;
-              background: #000;
-              position: absolute;
-              top: 5px;
-              left: 1vw; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .icon {
-            position: absolute;
-            width: 2vw;
-            height: 2vw;
-            bottom: -1.4vw;
-            left: 49.2%; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .icon span {
-              position: absolute;
-              width: inherit;
-              height: inherit; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox {
+        height: 33vh;
+        flex-wrap: wrap; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .line_bt {
+          width: calc(100% + (1vw));
+          height: 0;
+          background: #000;
+          position: absolute;
+          left: 0;
+          bottom: 0; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .line_bt::before {
+            content: '';
             width: 100%;
-            height: 100%; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox svg {
-              position: absolute;
-              bottom: 4vw;
-              left: 3vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox svg text {
-                font: bold 4vw/1 'Overpass';
-                fill: #fff;
-                stroke: #111;
-                stroke-width: 2;
-                stroke-linejoin: miter;
-                stroke-linecap: square;
-                stroke-dasharray: 240px;
-                stroke-dashoffset: 240px;
-                transform: scale(0.96);
-                transform-origin: center center;
-                animation: ani 3s alternate-reverse linear infinite; }
+            height: 1px;
+            background: #000;
+            position: absolute;
+            bottom: -1vw;
+            left: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .line_bt::after {
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: #000;
+            position: absolute;
+            bottom: 1vw;
+            left: -1vw; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline {
+          position: absolute;
+          display: block;
+          left: 50%;
+          width: 0;
+          background: #000;
+          bottom: -15px;
+          height: 2vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline::before {
+            content: '';
+            width: 1px;
+            height: 100%;
+            background: #000;
+            position: absolute;
+            top: 5px;
+            left: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .midline::after {
+            content: '';
+            width: 1px;
+            height: 100%;
+            background: #000;
+            position: absolute;
+            top: 5px;
+            left: 1vw; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .icon {
+          position: absolute;
+          width: 2vw;
+          height: 2vw;
+          bottom: -1.4vw;
+          left: 49.2%; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .frame .icon span {
+            position: absolute;
+            width: inherit;
+            height: inherit; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox {
+          width: 100%;
+          height: 100%; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox svg {
+            position: absolute;
+            bottom: 4vw;
+            left: 3vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .left .leftbox svg text {
+              font: bold 4vw/1 'Overpass';
+              fill: #fff;
+              stroke: #111;
+              stroke-width: 2;
+              stroke-linejoin: miter;
+              stroke-linecap: square;
+              stroke-dasharray: 240px;
+              stroke-dashoffset: 240px;
+              transform: scale(0.96);
+              transform-origin: center center;
+              animation: ani 3s alternate-reverse linear infinite; }
   @keyframes ani {
     0% {
       stroke-dashoffset: 240px;
@@ -742,207 +740,207 @@ a {
       stroke-dashoffset: 0px;
       stroke-dashoffset: 0;
       transition: stroke-dashoffset 1s 0s, fill 1s 1s; } }
-        #wrap .swiper-wrapper .sld1 .inner .container .wrap .right {
-          position: relative;
+      #wrap .swiper-wrapper .sld1 .inner .container .wrap .right {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 55vh; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card {
           display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
           width: 50%;
-          height: 91vh; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card {
-            display: flex;
-            width: 50%;
-            height: 40%;
-            transform-style: preserve-3d;
-            transition: 0.5s; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_bt {
-              width: calc(100% + (1vw));
-              height: 0;
-              background: #000;
-              position: absolute;
-              left: 0;
-              bottom: 0; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_bt::before {
-                content: '';
-                width: 100%;
-                height: 1px;
-                background: #000;
-                position: absolute;
-                bottom: -1vw;
-                left: -1vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_bt::after {
-                content: '';
-                width: 100%;
-                height: 1px;
-                background: #000;
-                position: absolute;
-                bottom: 1vw;
-                left: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf {
-              position: absolute;
-              display: block;
-              left: 0;
-              top: 0;
-              width: 0;
-              height: 100%;
-              background: #000; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::before {
-                content: '';
-                width: 1px;
-                height: calc(100% + 2vw);
-                background: #000;
-                position: absolute;
-                top: -1vw;
-                left: 24vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::after {
-                content: '';
-                width: 1px;
-                height: calc(100% + 2vw );
-                background: #000;
-                position: absolute;
-                top: -1vw;
-                left: 26vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon {
-              position: absolute;
-              width: 2vw;
-              height: 2vw;
-              bottom: -1.4vw;
-              left: -0.4vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon span {
-                position: absolute;
-                width: inherit;
-                height: inherit; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box {
-            width: 50%;
-            height: 12%; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .linecenter {
-              width: calc(100% + 2vw);
+          height: 40%;
+          transform-style: preserve-3d;
+          transition: 0.5s; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_bt {
+            width: calc(100% + (1vw));
+            height: 0;
+            background: #000;
+            position: absolute;
+            left: 0;
+            bottom: 0; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_bt::before {
+              content: '';
+              width: 100%;
               height: 1px;
               background: #000;
               position: absolute;
-              display: block;
+              bottom: -1vw;
+              left: -1vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_bt::after {
+              content: '';
+              width: 100%;
+              height: 1px;
+              background: #000;
+              position: absolute;
+              bottom: 1vw;
+              left: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf {
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 100%;
+            background: #000; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::before {
+              content: '';
+              width: 1px;
+              height: calc(100% + 2vw);
+              background: #000;
+              position: absolute;
+              top: -1vw;
+              left: 24vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::after {
+              content: '';
+              width: 1px;
+              height: calc(100% + 2vw );
+              background: #000;
+              position: absolute;
+              top: -1vw;
+              left: 26vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon {
+            position: absolute;
+            width: 2vw;
+            height: 2vw;
+            bottom: -1.4vw;
+            left: -0.4vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon span {
+              position: absolute;
+              width: inherit;
+              height: inherit; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box {
+          width: 50%;
+          height: 12%; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .linecenter {
+            width: calc(100% + 2vw);
+            height: 1px;
+            background: #000;
+            position: absolute;
+            display: block;
+            left: -1vw;
+            top: 0; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf {
+            width: 0;
+            height: 100%;
+            background: #000;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 0; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf::before {
+              content: '';
+              width: 1px;
+              height: calc( 100% + 2vw);
+              background: #000;
+              position: absolute;
               left: -1vw;
-              top: 0; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf {
-              width: 0;
-              height: 100%;
+              top: -1vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf::after {
+              content: '';
+              width: 1px;
+              height: calc(100% + 2vw);
               background: #000;
               position: absolute;
-              display: block;
-              left: 0;
-              top: 0; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf::before {
-                content: '';
-                width: 1px;
-                height: calc( 100% + 2vw);
-                background: #000;
-                position: absolute;
-                left: -1vw;
-                top: -1vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf::after {
-                content: '';
-                width: 1px;
-                height: calc(100% + 2vw);
-                background: #000;
-                position: absolute;
-                left: 1vw;
-                top: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_bt {
-              width: calc(100% + 1vw);
-              height: 0;
+              left: 1vw;
+              top: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_bt {
+            width: calc(100% + 1vw);
+            height: 0;
+            background: #000;
+            position: absolute;
+            display: block;
+            left: 0;
+            bottom: 0; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_bt::before {
+              content: '';
+              width: 100%;
+              height: 1px;
               background: #000;
               position: absolute;
-              display: block;
-              left: 0;
-              bottom: 0; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_bt::before {
-                content: '';
-                width: 100%;
-                height: 1px;
-                background: #000;
-                position: absolute;
-                left: -1vw;
-                bottom: -1vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_bt::after {
-                content: '';
-                width: 100%;
-                height: 1px;
-                background: #000;
-                position: absolute;
-                bottom: 1vw;
-                left: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .icon {
-              position: absolute;
-              width: 2vw;
-              height: 2vw;
-              bottom: -1.4vw;
-              left: -0.4vw; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 {
-            width: 50%;
-            height: 12%; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf {
-              width: 0;
-              height: 100%;
+              left: -1vw;
+              bottom: -1vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_bt::after {
+              content: '';
+              width: 100%;
+              height: 1px;
               background: #000;
               position: absolute;
-              display: block;
-              left: 0;
-              top: 0; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::before {
-                content: '';
-                width: 1px;
-                height: 18.3vh;
-                background: #000;
-                position: absolute;
-                left: 24vw;
-                bottom: -1vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::after {
-                content: '';
-                width: 1px;
-                height: 18.3vh;
-                background: #000;
-                position: absolute;
-                left: 26vw;
-                bottom: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .icon {
-              position: absolute;
-              width: 2vw;
-              height: 2vw;
-              bottom: -1.4vw;
-              left: 24.6vw; }
-          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 {
-            width: 50%;
-            height: 12%; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf {
-              width: 0;
-              height: 100%;
+              bottom: 1vw;
+              left: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .icon {
+            position: absolute;
+            width: 2vw;
+            height: 2vw;
+            bottom: -1.4vw;
+            left: -0.4vw; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 {
+          width: 50%;
+          height: 12%; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf {
+            width: 0;
+            height: 100%;
+            background: #000;
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 0; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::before {
+              content: '';
+              width: 1px;
+              height: 18.3vh;
               background: #000;
               position: absolute;
-              display: block;
-              right: 0;
-              top: 0; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::before {
-                content: '';
-                width: 1px;
-                height: 18.3vh;
-                background: #000;
-                position: absolute;
-                right: 0.95vw;
-                bottom: -1vw; }
-              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::after {
-                content: '';
-                width: 1px;
-                height: 18.3vh;
-                background: #000;
-                position: absolute;
-                right: 0vw;
-                bottom: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .icon {
+              left: 24vw;
+              bottom: -1vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf::after {
+              content: '';
+              width: 1px;
+              height: 18.3vh;
+              background: #000;
               position: absolute;
-              width: 2vw;
-              height: 2vw;
-              bottom: -1.4vw;
-              left: 24.6vw; }
+              left: 26vw;
+              bottom: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .icon {
+            position: absolute;
+            width: 2vw;
+            height: 2vw;
+            bottom: -1.4vw;
+            left: 24.6vw; }
+        #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 {
+          width: 50%;
+          height: 12%; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf {
+            width: 0;
+            height: 100%;
+            background: #000;
+            position: absolute;
+            display: block;
+            right: 0;
+            top: 0; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::before {
+              content: '';
+              width: 1px;
+              height: 18.3vh;
+              background: #000;
+              position: absolute;
+              right: 0.95vw;
+              bottom: -1vw; }
+            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::after {
+              content: '';
+              width: 1px;
+              height: 18.3vh;
+              background: #000;
+              position: absolute;
+              right: 0vw;
+              bottom: -1vw; }
+          #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .icon {
+            position: absolute;
+            width: 2vw;
+            height: 2vw;
+            bottom: -1.4vw;
+            left: 24.6vw; }
   #wrap .swiper-wrapper .sld2 > .inner, #wrap .swiper-wrapper .sld3 > .inner, #wrap .swiper-wrapper .sld4 > .inner, #wrap .swiper-wrapper .sld5 > .inner, #wrap .swiper-wrapper .sld6 > .inner {
     width: 100%;
     margin: 0 auto;
