@@ -814,13 +814,7 @@ a {
           width: 50%;
           height: 12%; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .linecenter {
-            width: calc(100% + 2vw);
-            height: 1px;
-            background: #000;
-            position: absolute;
-            display: block;
-            left: -1vw;
-            top: 0; }
+            display: none; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf {
             width: 0;
             height: 100%;

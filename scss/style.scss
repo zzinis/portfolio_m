@@ -1067,13 +1067,7 @@
                                     height: 12%;
                                     .frame{
                                         .linecenter{
-                                            width: calc(100% + 2vw);
-                                            height: 1px;
-                                            background: #000;
-                                            position: absolute;
-                                            display: block;
-                                            left: -1vw;
-                                            top: 0;
+                                            display: none;
                                         }
                                         .line_lf{
                                             width: 0;
