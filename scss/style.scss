@@ -894,37 +894,14 @@
                                         background: #000;
                                         bottom: -15px;
                                         height: 2vw;
-                                        &::before{
-                                            content: '';
-                                            width: 1px;
-                                            height: 100%;
-                                            background: #000;
-                                            position: absolute;
-                                            top: 5px;
-                                            left: -1vw;
-                                        }
-                                        &::after{
-                                            content: '';
-                                            width: 1px;
-                                            height: 100%;
-                                            background: #000;
-                                            position: absolute;
-                                            top: 5px;
-                                            left: 1vw;
+                                       
+                                        &::before,&::after{
+                                            display: none;
                                         }
     
                                     }
                                     .icon{
-                                        position: absolute;
-                                        width: 2vw;
-                                        height: 2vw;
-                                        bottom: -1.4vw;
-                                        left: 49.2%;
-                                        span{
-                                            position: absolute;
-                                            width: inherit;
-                                            height: inherit;
-                                        }
+                                        display: none;
                                     }
                                 }
                                 .leftbox{
@@ -1049,11 +1026,7 @@
         
                                         }
                                         .icon{
-                                            position: absolute;
-                                            width: 2vw;
-                                            height: 2vw;
-                                            bottom: -1.4vw;
-                                            left: -0.4vw;
+                                           display: none;
                                             span{
                                                 position: absolute;
                                                 width: inherit;
