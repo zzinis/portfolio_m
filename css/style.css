@@ -780,10 +780,6 @@ a {
               left: 26vw; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon {
             display: none; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .icon span {
-              position: absolute;
-              width: inherit;
-              height: inherit; }
         #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box {
           width: 50%;
           height: 12%; }
@@ -838,11 +834,7 @@ a {
               bottom: 1vw;
               left: -1vw; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .icon {
-            position: absolute;
-            width: 2vw;
-            height: 2vw;
-            bottom: -1.4vw;
-            left: -0.4vw; }
+            display: none; }
         #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 {
           width: 50%;
           height: 12%; }
@@ -871,11 +863,7 @@ a {
               left: 26vw;
               bottom: -1vw; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .icon {
-            position: absolute;
-            width: 2vw;
-            height: 2vw;
-            bottom: -1.4vw;
-            left: 24.6vw; }
+            display: none; }
         #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 {
           width: 50%;
           height: 12%; }
@@ -904,11 +892,7 @@ a {
               right: 0vw;
               bottom: -1vw; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .icon {
-            position: absolute;
-            width: 2vw;
-            height: 2vw;
-            bottom: -1.4vw;
-            left: 24.6vw; }
+            display: none; }
   #wrap .swiper-wrapper .sld2 > .inner, #wrap .swiper-wrapper .sld3 > .inner, #wrap .swiper-wrapper .sld4 > .inner, #wrap .swiper-wrapper .sld5 > .inner, #wrap .swiper-wrapper .sld6 > .inner {
     width: 100%;
     margin: 0 auto;

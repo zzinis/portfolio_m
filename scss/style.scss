@@ -942,16 +942,6 @@
                                             transition: stroke-dashoffset 1s 0s, fill 1s 1s;
                                         }
                                     }
-                                    // svg{
-                                    //     position: absolute;
-                                    //     bottom: 4vw;
-                                    //     // font: 50px/1 'Heebo';
-                                    //     font: bold 6vw/1 'Heebo';
-                                    //     color: #fff;
-                                    //     // text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-                                    //     -webkit-text-stroke: 0.5px #111;
-                                    //     padding-left: 2vw;
-                                    // }
                                 }
                             }
                             .right{
@@ -1026,12 +1016,8 @@
         
                                         }
                                         .icon{
-                                           display: none;
-                                            span{
-                                                position: absolute;
-                                                width: inherit;
-                                                height: inherit;
-                                            }
+                                            display: none;
+
                                         }
                                     }
                                 }
@@ -1097,11 +1083,7 @@
                                             }
                                         }
                                         .icon{
-                                            position: absolute;
-                                            width: 2vw;
-                                            height: 2vw;
-                                            bottom: -1.4vw;
-                                            left: -0.4vw;
+                                            display: none;
                                         }
                                         
                                     }
@@ -1139,11 +1121,7 @@
                                         }
                                         
                                         .icon{
-                                            position: absolute;
-                                            width: 2vw;
-                                            height: 2vw;
-                                            bottom: -1.4vw;
-                                            left: 24.6vw;
+                                            display: none;
                                         }
                                         
                                     }
@@ -1181,11 +1159,7 @@
                                         }
                                         
                                         .icon{
-                                            position: absolute;
-                                            width: 2vw;
-                                            height: 2vw;
-                                            bottom: -1.4vw;
-                                            left: 24.6vw;
+                                            display: none;
                                         }
                                         
                                     }
