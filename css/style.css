@@ -765,7 +765,7 @@ a {
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::before {
               content: '';
               width: 1px;
-              height: calc(100% + 2vw);
+              height: 100vh;
               background: #000;
               position: absolute;
               top: -1vw;
@@ -773,7 +773,7 @@ a {
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .card .frame .line_lf::after {
               content: '';
               width: 1px;
-              height: calc(100% + 2vw );
+              height: 100vh;
               background: #000;
               position: absolute;
               top: -1vw;
@@ -868,29 +868,7 @@ a {
           width: 50%;
           height: 12%; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf {
-            width: 0;
-            height: 100%;
-            background: #000;
-            position: absolute;
-            display: block;
-            right: 0;
-            top: 0; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::before {
-              content: '';
-              width: 1px;
-              height: 18.3vh;
-              background: #000;
-              position: absolute;
-              right: 0.95vw;
-              bottom: -1vw; }
-            #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .line_lf::after {
-              content: '';
-              width: 1px;
-              height: 18.3vh;
-              background: #000;
-              position: absolute;
-              right: 0vw;
-              bottom: -1vw; }
+            display: none; }
           #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 .frame .icon {
             display: none; }
   #wrap .swiper-wrapper .sld2 > .inner, #wrap .swiper-wrapper .sld3 > .inner, #wrap .swiper-wrapper .sld4 > .inner, #wrap .swiper-wrapper .sld5 > .inner, #wrap .swiper-wrapper .sld6 > .inner {
