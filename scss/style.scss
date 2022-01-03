@@ -1039,7 +1039,7 @@
                                             &::before{
                                                 content: '';
                                                 width: 1px;
-                                                height: calc( 100% + 2vw);
+                                                height:100vh;
                                                 background: #000;
                                                 position: absolute;
                                                 left: -1vw;
@@ -1048,7 +1048,7 @@
                                             &::after{
                                                 content: '';
                                                 width: 1px;
-                                                height: calc(100% + 2vw);
+                                                height: 100vh;
                                                 background: #000;
                                                 position: absolute;
                                                 left: 1vw;

@@ -796,7 +796,7 @@ a {
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf::before {
               content: '';
               width: 1px;
-              height: calc( 100% + 2vw);
+              height: 100vh;
               background: #000;
               position: absolute;
               left: -1vw;
@@ -804,7 +804,7 @@ a {
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .line_lf::after {
               content: '';
               width: 1px;
-              height: calc(100% + 2vw);
+              height: 100vh;
               background: #000;
               position: absolute;
               left: 1vw;
