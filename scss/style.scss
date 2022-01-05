@@ -1279,6 +1279,7 @@
                             
                             .topbox{
                                 width: 60%;
+                                height: 200px;
 
                                 .lbox{
                                     width: 100%;
@@ -1306,13 +1307,120 @@
                         .rightbox{
                             flex-basis: 0;
                             width: 100%;
-                            .top{
 
+                            .top{
                                 padding: 60px 40px;
-    
+                                height: 500px;
                             }
                             .bottom{
                                 display: none;
+                            }
+    
+                        }
+                        
+                    }
+                }
+            }
+            
+    
+        }
+        .swiper-button-next {
+            top: auto;
+            bottom: 3vh;
+            right: 3vw;
+            transform: translateY(-50%);
+            transform: scale(0.6); 
+            filter: saturate(0%) brightness(100%);
+            opacity: 1;
+        }
+    
+        .swiper-button-prev {
+            top: auto;
+            bottom: 3vh;
+            left: auto;
+            right: calc(3vw + 50px); 
+            transform: scale(0.6); 
+            filter: saturate(0%) brightness(100%);
+            opacity: 1;
+        }
+    
+        .swiper-pagination{
+            position: absolute;
+            left: 10vw;
+            top: 3vh;
+            right: auto;
+            width: auto;
+            span{
+                width: auto;
+                height: auto;
+                background: transparent;
+                border-radius: 0;
+                opacity: 0.7;
+                margin-left: 30px;
+                font: 15px/1 'Heebo';
+                
+    
+                &.swiper-pagination-bullet-active{
+                    opacity: 1;
+                    font-weight: bold;
+                }
+            }
+    
+        }
+    
+    }
+    
+}
+
+
+@media screen and (max-width:700px) {
+    #wrap {  
+        .swiper-wrapper {
+
+            .sld7{     
+                >.inner{
+                    padding:50px 0px;
+
+                    .wrap{
+    
+                        .left{
+                            
+                            .topbox{
+                                width: 60%;
+                                height: 150px;
+
+                                .lbox{
+                                    width: 100%;
+                                    >h1{
+                                        font: bold 70px/1 'Heebo';
+                                    }
+                                }
+                                
+                            }
+                            .middlebox{
+                                width: 40%;
+                                height: 150px;
+
+                                h2{
+                                    display: none;
+                                }
+    
+                            }
+                            .bottombox{
+                                display: none;
+                            }
+    
+                        }
+                        
+                        .rightbox{
+                            flex-basis: 0;
+                            width: 100%;
+                            height: 600px;
+
+                            .top{
+                                padding: 60px 40px;
+                                
+                                cursor: pointer;
                             }
     
                         }
