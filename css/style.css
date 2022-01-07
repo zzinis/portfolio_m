@@ -1013,6 +1013,64 @@ a {
         opacity: 1;
         font-weight: bold; } }
 @media screen and (max-width: 700px) {
+  #wrap .swiper-wrapper .sld2 > .inner .wrap .left .topbox .lbox > h1, #wrap .swiper-wrapper .sld3 > .inner .wrap .left .topbox .lbox > h1, #wrap .swiper-wrapper .sld4 > .inner .wrap .left .topbox .lbox > h1, #wrap .swiper-wrapper .sld5 > .inner .wrap .left .topbox .lbox > h1, #wrap .swiper-wrapper .sld6 > .inner .wrap .left .topbox .lbox > h1 {
+    margin: 50px auto;
+    font: bold 100px/1 'Heebo'; }
+  #wrap .swiper-wrapper .sld2 > .inner .wrap .left .topbox .rbox, #wrap .swiper-wrapper .sld3 > .inner .wrap .left .topbox .rbox, #wrap .swiper-wrapper .sld4 > .inner .wrap .left .topbox .rbox, #wrap .swiper-wrapper .sld5 > .inner .wrap .left .topbox .rbox, #wrap .swiper-wrapper .sld6 > .inner .wrap .left .topbox .rbox {
+    display: none; }
+  #wrap .swiper-wrapper .sld2 > .inner .wrap .left .middlebox, #wrap .swiper-wrapper .sld3 > .inner .wrap .left .middlebox, #wrap .swiper-wrapper .sld4 > .inner .wrap .left .middlebox, #wrap .swiper-wrapper .sld5 > .inner .wrap .left .middlebox, #wrap .swiper-wrapper .sld6 > .inner .wrap .left .middlebox {
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+    padding: 30px; }
+    #wrap .swiper-wrapper .sld2 > .inner .wrap .left .middlebox span, #wrap .swiper-wrapper .sld3 > .inner .wrap .left .middlebox span, #wrap .swiper-wrapper .sld4 > .inner .wrap .left .middlebox span, #wrap .swiper-wrapper .sld5 > .inner .wrap .left .middlebox span, #wrap .swiper-wrapper .sld6 > .inner .wrap .left .middlebox span {
+      font: 14px/1.7 'Noto Sans KR'; }
+  #wrap .swiper-wrapper .sld2 > .inner .wrap .left .bottombox, #wrap .swiper-wrapper .sld3 > .inner .wrap .left .bottombox, #wrap .swiper-wrapper .sld4 > .inner .wrap .left .bottombox, #wrap .swiper-wrapper .sld5 > .inner .wrap .left .bottombox, #wrap .swiper-wrapper .sld6 > .inner .wrap .left .bottombox {
+    display: inline-block;
+    width: 30%;
+    height: 250px; }
+  #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox {
+    flex-basis: 0%;
+    display: flex; }
+    #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .top, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .top, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .top, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .top, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .top {
+      width: 100%;
+      height: 400px; }
+    #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom {
+      width: 43%;
+      display: flex; }
+      #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom .bottom_l, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom .bottom_l, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom .bottom_l, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom .bottom_l, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom .bottom_l {
+        display: none; }
+      #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article {
+        width: 100%;
+        height: 100%; }
+        #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article:nth-of-type(2), #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article:nth-of-type(2), #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article:nth-of-type(2), #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article:nth-of-type(2), #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article:nth-of-type(2) {
+          background: url(../img/pixel.png);
+          background-size: 2px 2px;
+          background-position: 0 0; }
+        #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li {
+          display: inline-block;
+          margin-right: 0px;
+          margin: 20px 10px;
+          background: #fff;
+          border-radius: 10px;
+          padding: 12px;
+          position: initial; }
+          #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li a {
+            font: 16px/1 'Noto Sans KR';
+            color: #8b8b8b; }
+          #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2), #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) {
+            background: #404040; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2) a {
+              color: #fff; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover {
+              background: #fff; }
+              #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:nth-of-type(2):hover a {
+                color: #111; }
+          #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:hover, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:hover {
+            transform: translateY(5px);
+            background: #969696; }
+            #wrap .swiper-wrapper .sld2 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld3 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld4 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld5 > .inner .wrap .rightbox .bottom article li:hover a, #wrap .swiper-wrapper .sld6 > .inner .wrap .rightbox .bottom article li:hover a {
+              color: #fff; }
   #wrap .swiper-wrapper .sld7 > .inner {
     padding: 50px 0px; }
     #wrap .swiper-wrapper .sld7 > .inner .wrap .left .topbox {

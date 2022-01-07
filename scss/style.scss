@@ -1378,6 +1378,112 @@
     #wrap {  
         .swiper-wrapper {
 
+            .sld2, .sld3, .sld4, .sld5, .sld6{     
+
+                >.inner{
+                    .wrap{
+                        .left{
+                            .topbox{
+                                .lbox{
+                                    >h1{
+                                        margin: 50px auto;
+                                        font: bold 100px/1 'Heebo';
+                                    }
+                                }
+                                .rbox{
+                                    display: none;
+                                }
+                                
+                            }
+                            .middlebox{
+                                display: inline-block;
+                                width: 50%;
+                                height: 250px;
+                                padding: 30px;
+
+                                span{
+                                    font: 14px/1.7 'Noto Sans KR';
+                                    
+                                }
+    
+                            }
+                            .bottombox{
+                                display: inline-block;
+                                width: 30%;
+                                height: 250px;
+                            }
+    
+                        }
+                        
+                        .rightbox{
+                            flex-basis: 0%;
+                            display: flex;
+                            .top{
+                                width: 100%;
+                                height: 400px;
+                            }
+                            .bottom{
+                                width: 43%;
+                                display: flex;
+
+                                .bottom_l{
+                                    display: none;
+                                }
+                                article{
+                                    width: 100%;
+                                    height: 100%;
+
+                                    &:nth-of-type(2){
+                                        background: url(../img/pixel.png);
+                                        background-size: 2px 2px;
+                                        background-position: 0 0;
+                                    }
+                                    
+                                    
+    
+                                    li{
+                                        display: inline-block;
+                                        margin-right: 0px;
+                                        margin: 20px 10px;
+                                        background: #fff;
+                                        border-radius: 10px;
+                                        padding: 12px;
+                                        position: initial;
+                                        a{
+                                            font: 16px/1 'Noto Sans KR';
+                                            color: #8b8b8b;
+                                            
+                                        }
+                                        &:nth-of-type(2){
+                                            background: #404040;
+                                            
+                                            a{color: #fff;}
+                                            &:hover{
+                                                background: #fff;
+                                                a{
+                                                    color: #111;
+                                                }
+                                            }
+                                        }
+    
+                                        &:hover{
+                                            transform: translateY(5px);
+                                            background: #969696;
+                                            a{
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                            }
+    
+                        }
+                        
+                    }
+                }
+            }
+
             .sld7{     
                 >.inner{
                     padding:50px 0px;
