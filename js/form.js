@@ -1,5 +1,4 @@
 (function(){
-    //발급받은 user_id값 인수로 전달
     emailjs.init("user_W97Pif6Cvuo1f2mZRiYAQ");
 })();
 
@@ -9,12 +8,11 @@ window.onload = function() {
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
-        // 고유 contact 숫자 랜덤하게 생성
         this.contact_number.value = Math.random() * 100000 | 0;
 
 
         emailjs
-            .sendForm('service_afogufr', 'template_v025wns', this) //serviceID, templateID입력
+            .sendForm('service_afogufr', 'template_v025wns', this) 
             .then(
                 function(response) {
                     console.log('메일 발송 성공', response.status, response.text); 
