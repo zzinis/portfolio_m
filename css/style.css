@@ -203,7 +203,8 @@ a {
                   height: inherit; }
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box {
               width: 50%;
-              height: 12%; }
+              height: 12%;
+              padding: 32px; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box .frame .linecenter {
                 width: calc(100% + 2vw);
                 height: 1px;
