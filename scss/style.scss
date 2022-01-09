@@ -331,6 +331,7 @@
                             .box1{
                                 width: 50%;
                                 height: 12%;
+                                padding: 32px;
                                 .frame{
                                     .line_lf{
                                         width: 0;
@@ -366,6 +367,9 @@
                                         height: 2vw;
                                         bottom: -1.4vw;
                                         left: 24.6vw;
+                                    }
+                                    span{
+                                        font: 15px/1.2 'Noto Sans KR';
                                     }
                                     
                                 }

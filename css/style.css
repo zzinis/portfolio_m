@@ -271,7 +271,8 @@ a {
                 font: 15px/1.2 'Noto Sans KR'; }
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 {
               width: 50%;
-              height: 12%; }
+              height: 12%;
+              padding: 32px; }
               #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame .line_lf {
                 width: 0;
                 height: 100%;
@@ -302,6 +303,8 @@ a {
                 height: 2vw;
                 bottom: -1.4vw;
                 left: 24.6vw; }
+              #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box1 .frame span {
+                font: 15px/1.2 'Noto Sans KR'; }
             #wrap .swiper-wrapper .sld1 .inner .container .wrap .right .box2 {
               width: 50%;
               height: 12%; }
